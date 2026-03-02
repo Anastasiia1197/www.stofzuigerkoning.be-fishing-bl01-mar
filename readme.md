@@ -3,10 +3,10 @@
 
 !!! 
 1) всі посилання в head у файлы index.html мають бути https://www.stofzuigerkoning.be/ (сайт на якому буде контент). також змінити у sitemap та robots.txt на правильне посилання + дати сьогоднішні 
-2) на сторінці /en-ca/ контент такий самий, як в index.html АЛЕ: 
-(можете створити нову папку /en-ca/ або перейменувати)
+2) на сторінці /nl-be/ контент такий самий, як в index.html АЛЕ: 
+(можете створити нову папку /nl-be/ або перейменувати)
 
-   - <html lang="en-CA">
+   - <html lang="nl-BE">
    - шляхи до файлів мають бути (приклад)
          <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -26,9 +26,9 @@
 
 
 ставимо хрефланги та канонікл у head 
-<link rel="alternate" hreflang="en-CA" href="https://www.stofzuigerkoning.be/en-ca/">
+<link rel="alternate" hreflang="nl-BE" href="https://www.stofzuigerkoning.be/nl-be/">
 <link rel="alternate" hreflang="x-default" href="https://www.stofzuigerkoning.be/">
-<link rel="canonical" href="https://www.stofzuigerkoning.be/en-ca/">
+<link rel="canonical" href="https://www.stofzuigerkoning.be/nl-be/">
 
 
 !!! **КЛЮЧІ такод потрібно додавати у промт, та вказувати: щоб їх використовувал ШІ у написанні контенту**
